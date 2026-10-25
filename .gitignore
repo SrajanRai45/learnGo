@@ -1,0 +1,42 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+bin/
+
+# Test binary, test logs, profiling tools, and coverage reports
+*.test
+*.out
+*.prof
+*.cgo1.go
+*.cgo2.c
+_cgo_defun.c
+_cgo_gotypes.go
+_cgo_export.*
+coverage.txt
+coverage.out
+coverage.html
+
+# Go workspace files (for local multi-module development)
+go.work
+go.work.sum
+
+# Environment variables (Never commit secrets)
+.env
+.env.local
+
+# Dependency directories (if using vendoring)
+/vendor/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE and Editor directories (Neovim, VSCode, JetBrains)
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
